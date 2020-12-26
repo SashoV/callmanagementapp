@@ -1,0 +1,48 @@
+.red {
+    color: red;
+}
+
+.mainTable td:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    margin-bottom: 60px;
+    border-radius: 0;
+}
+
+
+.deleteCallForm {
+    display: inline;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar .navLink {
+        padding: 0;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .navbar .navLink:hover {
+        border-bottom: 1px solid black;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-right .navLink {
+        border-top: 1px solid lightgray;
+    }
+
+    .navbar .navLink {
+        margin: 0;
+    }
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .tableContainer {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
